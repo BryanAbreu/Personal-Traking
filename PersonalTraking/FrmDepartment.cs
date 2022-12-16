@@ -62,6 +62,8 @@ namespace PersonalTraking
         public DEPARTAMENT detail = new DEPARTAMENT();
         private void FrmDepartment_Load(object sender, EventArgs e)
         {
+
+
             if (IsUpdate)
                 tbDeparment.Text = detail.DepartamentName;
 
